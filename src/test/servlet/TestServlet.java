@@ -15,7 +15,7 @@ public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Git Test2");
+		response.getWriter().println("Git Test3");
 	}
 
 }
